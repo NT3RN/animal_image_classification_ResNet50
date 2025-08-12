@@ -8,7 +8,7 @@ Key Features:
 - ResNet50 fine-tuned for optimal performance.
 - Achieved 96.59% validation accuracy.
 - Evaluation using confusion matrix and classification report.
-- Model was trained on kaggle
+- Model was trained on kaggle and deployed on streamlit(https://animalimageclassificationresnet50-gyvtphv5nivq8wbtedsgcu.streamlit.app/)
 
 📂 Dataset
 This project uses a custom dataset created by merging multiple sources into a unified animal image classification dataset. The dataset contains 10 animal classes:
@@ -86,7 +86,6 @@ Example Confusion Matrix: (Generated during evaluation)
 Sample Predictions: (Example outputs with predicted labels)
 
 📈 Future Improvements
-- Deploy as a Streamlit or Flask web application.
 - Expand dataset for more animal classes.
 - Apply model pruning or quantization for edge deployment.
 
