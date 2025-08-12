@@ -12,16 +12,17 @@ Key Features:
 
 📂 Dataset
 This project uses a custom dataset created by merging multiple sources into a unified animal image classification dataset. The dataset contains 10 animal classes:
-🦋 Butterfly
-🐱 Cat
-🐔 Chicken
-🐄 Cow
-🐶 Dog
-🐘 Elephant
-🐎 Horse
-🐑 Sheep
-🕷 Spider
-🐿 Squirrel
+
+- 🦋 Butterfly
+- 🐱 Cat
+- 🐔 Chicken
+- 🐄 Cow
+- 🐶 Dog
+- 🐘 Elephant
+- 🐎 Horse
+- 🐑 Sheep
+- 🕷 Spider
+- 🐿 Squirrel
 
 Folder Structure:
 <pre>dataset/
@@ -59,33 +60,11 @@ Folder Structure:
     ├── spider/
     └── squirrel/ </pre>
 
-🛠️ Installation
-1. Clone the repository:
-
-git clone https://github.com/NT3RN/animal_image_classification_ResNet50
-cd animal_image_classification_ResNet50
-
-3. Create virtual environment (optional but recommended):
-python -m venv venv
-source venv/bin/activate   # On Windows use: venv\Scripts\activate
-
-4. Install dependencies:
-pip install -r requirements.txt
-
-🚀 Usage
-1. Training the Model:
-python train.py
-
-2. Testing the Model:
-python test.py
-
-3. Running the Jupyter Notebook:
-jupyter notebook animal-2-test.ipynb
 
 📊 Results
-Best Validation Accuracy: 96.59%
-Example Confusion Matrix: (Generated during evaluation)
-Sample Predictions: (Example outputs with predicted labels)
+- Best Validation Accuracy: 96.59%
+- Example Confusion Matrix: (Generated during evaluation)
+- Sample Predictions: (Example outputs with predicted labels)
 
 📈 Future Improvements
 - Expand dataset for more animal classes.
