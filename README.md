@@ -24,7 +24,7 @@ This project uses a custom dataset created by merging multiple sources into a un
 🐿 Squirrel
 
 Folder Structure:
-dataset/
+<pre>dataset/
 ├── train/
 │   ├── butterfly/
 │   ├── cat/
@@ -57,7 +57,7 @@ dataset/
     ├── horse/
     ├── sheep/
     ├── spider/
-    └── squirrel/
+    └── squirrel/ </pre>
 
 🛠️ Installation
 1. Clone the repository:
