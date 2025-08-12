@@ -33,7 +33,7 @@ st.write("Upload an animal(butterfly, cat, chicken, cow, dog, elephant, horse, s
 file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
 if file:
     img = Image.open(file).convert("RGB")
-    st.image(img, caption="Uploaded Image", use_container_width=True)  # ✅ updated here
+    st.image(img, caption="Uploaded Image", use_container_width=True)  
     img_t = transform(img).unsqueeze(0)
     with torch.no_grad():
         outputs = model(img_t)
