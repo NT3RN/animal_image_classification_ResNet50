@@ -65,7 +65,7 @@ dataset/
    cd animal_image_classification_ResNet50
 
 3. Create virtual environment (optional but recommended):
-   python -m venv venv 
+   python -m venv venv |
    source venv/bin/activate   # On Windows use: venv\Scripts\activate
 
 4. Install dependencies:
