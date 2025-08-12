@@ -28,7 +28,7 @@ transform = transforms.Compose([
 ])
 
 st.title("🐾 Animal Image Classification with ResNet50")
-st.write("Upload an animal image(butterfly, cat, chicken, cow, dog, elephant, horse, sheep, spider, squirrel) to classify.")
+st.write("Upload an animal(butterfly, cat, chicken, cow, dog, elephant, horse, sheep, spider, squirrel) image to classify.")
 
 file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
 if file:
