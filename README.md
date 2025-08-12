@@ -64,11 +64,11 @@ dataset/
    git clone https://github.com/NT3RN/animal_image_classification_ResNet50
    cd animal_image_classification_ResNet50
 
-2. Create virtual environment (optional but recommended):
+3. Create virtual environment (optional but recommended):
    python -m venv venv
    source venv/bin/activate   # On Windows use: venv\Scripts\activate
 
-3. Install dependencies:
+4. Install dependencies:
    pip install -r requirements.txt
 🚀 Usage
 1. Training the Model:
