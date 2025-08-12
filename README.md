@@ -61,11 +61,11 @@ dataset/
 
 🛠️ Installation
 1. Clone the repository:
-   git clone https://github.com/NT3RN/animal_image_classification_ResNet50 \n
+   git clone https://github.com/NT3RN/animal_image_classification_ResNet50        
    cd animal_image_classification_ResNet50
 
 3. Create virtual environment (optional but recommended):
-   python -m venv venv \n
+   python -m venv venv 
    source venv/bin/activate   # On Windows use: venv\Scripts\activate
 
 4. Install dependencies:
